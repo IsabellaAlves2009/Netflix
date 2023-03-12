@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #141414;
+    font-family: 'Netflix Sans','Helvetica Neue','Helvetica','Arial',sans-serif;
+
+    justify-content: center;
+}
+.container{
+    text-align: center;
+    padding-top: 100px;
+    animation: Netflix .6s;
+}
+
+h1{
+    text-align: center;
+    color: #fff;
+    font-weight: unset;
+    margin-bottom: 31.608px;
+    font-size: 3.5vw;
+}
+
+.profiles{
+    display: flex;
+    justify-content: center;
+    margin: 0.6em 0;
+}
+
+.profile-icon img{
+    width: 136px;
+    height: 136px;
+    border-radius: 4px;
+}
+.name-profile{
+    color: #808080;
+    margin: 0.6em 0;
+}
+
+.manage_profiles a{
+    background: transparent;
+    color: #808080;
+    text-decoration: none;
+    border: 1px solid grey;
+    padding: 0.5em 1.5em;
+    font-size: 1.2vw;
+}
+.manage_profiles a:hover{
+    border-color: #fff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.profile-icon{
+    padding-left: 27px;
+    justify-content: center;
+}
+
+.name-profile{
+    font-size: 17px;
+    padding-top: 10px;
+}
+
+.manage_profiles{
+    margin-top: 79px;
+    margin-left: 19px;
+}
+
+.profile-icon img .profile-icon span:hover{    
+    color: #fff;
+    
+}
+
+@keyframes Netflix{
+    from{
+        opacity: 0;
+        transform: translate(-37px)
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px)
+    }
+}
